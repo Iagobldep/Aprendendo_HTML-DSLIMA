@@ -1,0 +1,66 @@
+body {
+    width: 98.7vw;
+    height: 98.7vw;
+    margin: 0px;
+    padding: 0px;
+    min-width: 300px;
+}
+
+header {
+    height: 15%;
+    border: 1px solid;
+}
+
+main {
+    height: 70%;
+    border: 1px solid;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid;
+}
+
+span{
+    width: 85%;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pocoes{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+}
+
+.pocoes:hover{
+    border: 3px solid yellow;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-color: white;
+}
+
+footer {
+    height: 15%;
+    border: 1px solid;
+}

@@ -1,0 +1,114 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 96.7vh;
+    background-color: rgb(248, 231,
+            210);
+}
+
+header {
+    border: 3px solid rgb(248, 231, 210);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 66, 4);
+}
+
+.cabecalho {
+    width: 70%;
+    height: 80px;
+    border: 1px solid rgb(248, 231, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 451px;
+    background-color: rgb(248, 231,
+            210);
+}
+
+main {
+    border: 1px solid;
+    width: 100%;
+    height: 719px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 66, 4);
+}
+
+footer {
+    border: 3px solid rgb(248, 231, 210);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 66, 4);
+}
+
+.principal {
+    width: 80%;
+    height: 95%;
+    border: 1px solid;
+    background-color: rgb(248, 231, 210);
+}
+
+img {
+    width: 40px;
+    height: 30px;
+    background-size: cover;
+    box-shadow: black 5px 0.3px 10px 2px;
+    border-radius: 50%;
+}
+
+.artCentralizado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.distribuida {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secaoAlinhamento {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-items:
+        center;
+    justify-content: space-evenly;
+}
+
+.artPocao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width:
+        75px;
+    height: 70px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    background-color: white;
+}
+
+.artPocao:hover {
+    background: rgb(235, 234, 234);
+    animation: growAndRotate 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes growAndRotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1.08) rotate(3deg);
+    }
+}
