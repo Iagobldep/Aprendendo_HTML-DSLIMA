@@ -1,6 +1,6 @@
 body {
     width: 98.7vw;
-    height: 98.7vw;
+    height: 100dvh;
     margin: 0px;
     padding: 0px;
     min-width: 300px;
@@ -79,4 +79,22 @@ footer {
     height: 15%;
     border: 1px solid;
     background: orange;
+}
+
+.distribuida {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.artBotao {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCompra {
+    padding: 10px 20px;
+    cursor: pointer;
 }
