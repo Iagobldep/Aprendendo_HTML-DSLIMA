@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: cornflowerblue;
+    overflow-x: hidden;
+}
+
+.hero-parallax {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100dvh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.camada {
+    will-change: transform;
+} 
+
+.parallax-fundo{
+    top:-20%;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    background:
+    radial-gradient(circle at center, rgba(119, 181, 235, 15)0%, transparent 60%),
+    linear-gradient(#445268 1px, transparent 1px),
+    linear-gradient(90deg, #445268 1px, transparent 1px);
+    background-size: 100% 100%, 40px 40px, 40px 40px;
+    z-index: 1;
+    /*
+    90deg gira o gradiente para correr da esquerda para a direita.
+    100% 100% - BRILHO - RADIAL
+    40% 40% LINHA HORIZONTAL
+    40% 40% LINHA VERTICAL
+    Os elementos gerarão linhas verticais e horizontais a cada 40 pixels
+    */
+}
+
+.parallax-circulo {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, white, rgb(190, 237, 243));
+    filter: blur(80px);
+    opacity: 0.4;
+    top: 25%;
+    right: 15%;
+    z-index: 2;
+}
